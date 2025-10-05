@@ -64,11 +64,16 @@ Optimizer: Adam / SGD (as per training)
 Input Size: 224x224 RGB images
 
 Evaluation
+
 Test Accuracy: ~87.7
+
 AUC: 0.9646
+
 F1-Score:
 NORMAL: 0.807
+
 PNEUMONIA: 0.909
+
 Observation: High recall for pneumonia detection; slightly lower for NORMAL.
 
 Results
@@ -79,4 +84,5 @@ Future Work
 Improve NORMAL class recall via data augmentation.
 Experiment with Deeper CNNs like ResNet-50, DenseNet.
 Integrate with clinical data for multi-modal diagnosis.
+
 Deploy as a web application for hospitals or telemedicine.
