@@ -26,26 +26,6 @@ Training set: Normal + Pneumonia images
 Validation set: Normal + Pneumonia images
 Test set: Normal + Pneumonia images
 
-Installation
-
-Clone the repository:
-git clone https://github.com/yourusername/pneumonia-detection.git
-cd pneumonia-detection
-
-Create a virtual environment (optional but recommended):
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-Install dependencies:
-pip install -r requirements.txt
-
-Dependencies include:
-torch, torchvision
-numpy, matplotlib, Pillow
-opencv-python
-streamlit
-
 Usage
 1. Evaluate Model
 python evaluate.py --checkpoint best_model.pth --test_dir chest_xray/test --batch_size 16 --img_size 224
@@ -86,3 +66,4 @@ Experiment with Deeper CNNs like ResNet-50, DenseNet.
 Integrate with clinical data for multi-modal diagnosis.
 
 Deploy as a web application for hospitals or telemedicine.
+
